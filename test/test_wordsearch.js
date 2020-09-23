@@ -50,4 +50,11 @@ describe("#wordSearch()", function() {
 
     assert.isFalse(result);
   });
+
+  it("should return false if the word array is empty", function() {
+    const result = wordSearch([
+  ], 'FRANK')
+
+    assert.isFalse(result);
+  }); 
 });

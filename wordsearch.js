@@ -32,3 +32,5 @@ const wordSearch = (letters, word) => {
     return resultHolder;
 }
 module.exports = wordSearch
+
+// Pair programmed by Noah and Jacqueline! 
